@@ -10,5 +10,5 @@ all =
     describe "A Test Suite"
         [ test "Addition" <|
             \() ->
-                Debug.crash "boom"
+                Debug.log "boom" (Debug.crash "boom")
         ]
